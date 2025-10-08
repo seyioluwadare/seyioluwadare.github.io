@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="[Page description — replace me]">
+    <meta name="keywords" content="[comma-separated keywords]">
+    <meta name="author" content="[Author Name]">
+    <meta property="og:title" content="[Site Name] - [Page Title]">
+    <meta property="og:description" content="[Open Graph description — replace me]">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="[PAGE_URL]">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@[your_twitter_handle]">
+    <title>[Site Name] — [Page Title]</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+    <header>
+        <div class="header-content">
+            <!-- Mobile nav toggle -->
+            <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="hamburger" aria-hidden="true"></span>
+            </button>
+
+            <!-- Main navigation -->
+            <nav id="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </nav>
+            <h1>[Name]</h1>
+            <p>CS PhD Student • [University]</p>
+            <div class="social-links-header">
+                <a href="#"><i class="fas fa-graduation-cap"></i>Google Scholar</a>
+                <a href="#"><i class="fab fa-github"></i>GitHub</a>
+                <a href="#"><i class="fab fa-linkedin"></i>LinkedIn</a>
+                <a href="mailto:email@university.edu"><i class="fas fa-envelope"></i>Email</a>
+                <a href="CV.pdf" download><i class="fas fa-file"></i>CV</a>
+            </div>
+        </div>
+        <div class="header-image">
+            <img src="images/profile.jpg" alt="Profile Photo">
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <p>Hi! I am a PhD student in Computer Science at [University], advised by <a href="#">[Advisor]</a>.</p>
+        </section>
+
+        <section id="research">
+            <h2>Research</h2>
+            <p>My research focuses on <strong>[Research Area 1] and [Research Area 2]</strong>. My recent works explore:</p>
+            <ul>
+                <li>[Research Topic 1] (<a href="#">[Conference 1]'24</a>, <a href="#">[Conference 2]'23</a>, <a href="#">[Conference 3]'22</a>)</li>
+                <li>[Research Topic 2] (<a href="#">[Conference 4]'24</a>, <a href="#">[Conference 5]'23</a>, <a href="#">[Conference 6]'23</a>)</li>
+                <li>[Research Topic 3] (<a href="#">[Conference 7]'24</a>, <a href="#">[Conference 8]'23</a>, <a href="#">[Conference 9]'23</a>)</li>
+                <li>[Research Topic 4] (<a href="#">[Journal 1]'22</a>, <a href="#">[Journal 2]'21</a>)</li>
+            </ul>
+        </section>
+
+        <section id="news">
+            <h2>News</h2>
+            <div class="news-container">
+                <ul class="news-list">
+                    <li>[MM/YYYY]: [News Item 1]</li>
+                    <li>[MM/YYYY]: [News Item 2]</li>
+                    <li>[MM/YYYY]: [News Item 3]</li>
+                    <li>[MM/YYYY]: [News Item 4]</li>
+                    <li>[MM/YYYY]: [News Item 5]</li>
+                    <li>[MM/YYYY]: [News Item 6]</li>
+                    <li>[MM/YYYY]: [News Item 7]</li>
+                    <li>[MM/YYYY]: [News Item 8]</li>
+                    <li>[MM/YYYY]: [News Item 9]</li>
+                    <li>[MM/YYYY]: [News Item 10]</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="award-item">
+                <span class="award-year">[YYYY]</span>
+                <div class="award-desc">[Degree] — [University], [Country]</div>
+            </div>
+            <div class="award-item">
+                <span class="award-year">[YYYY]</span>
+                <div class="award-desc">[Degree] — [University], [Country]</div>
+            </div>
+            <p class="note">Replace the placeholders above with degrees, institutions, and graduation years.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="award-item">
+                <span class="award-year">[YYYY–YYYY]</span>
+                <div class="award-desc">[Position] — [Organization]</div>
+            </div>
+            <div class="award-item">
+                <span class="award-year">[YYYY–YYYY]</span>
+                <div class="award-desc">[Position] — [Organization]</div>
+            </div>
+            <p class="note">Add positions, affiliations and date ranges for your work and research experience.</p>
+        </section>
+
+        <!-- Publications moved to research.html -->
+
+        <!-- Awards and Services moved to Achievements and Services pages -->
+
+        <section id="miscellaneous">
+            <h2>Miscellaneous</h2>
+            <div class="misc-item">
+                <p>[Optional] Share your hobbies and interests here.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Last updated: [Month YYYY]. Template improved by <a href="https://ahmadfantastic.github.io">Ahmad D. Suleiman</a>. Template originally by <a href="https://cs.stanford.edu/~yuhuiz/">Yuhui Zhang</a>.</p>
+    </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
