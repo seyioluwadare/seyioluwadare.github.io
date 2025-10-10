@@ -50,8 +50,8 @@ header {
 }
 
 .header-image img {
-  width: 130px;
-  height: 130px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid var(--border-color);
@@ -138,11 +138,11 @@ nav a.nav-active, nav a.nav-active:hover {
 }
 
 /* Unified animation for elements (not sections) */
-.publication-item, .award-item, .service-category, .misc-item, .news-list li {
+.publication-item, .entry-item, .service-category, .misc-item, .news-list li {
   transition: transform var(--transition-time) ease;
 }
 
-.publication-item:hover, .award-item:hover, 
+.publication-item:hover, .entry-item:hover, 
 .service-category:hover, .misc-item:hover, .news-list li:hover {
   transform: translateX(var(--animation-offset));
 }
@@ -304,24 +304,81 @@ section {
   box-shadow: 0 2px 5px rgba(74, 116, 185, 0.2);
 }
 
-/* Awards section */
-.award-item {
+/* Generic entries section (used for education, experience, achievements) */
+.entry-item {
   display: flex;
-  align-items: baseline;
-  margin-bottom: 0.1rem;
+  align-items: flex-start;
+  margin-bottom: 0.8rem;
 }
 
-.award-year {
+.entry-date {
   font-weight: 500;
   color: var(--accent-color);
-  flex: 0 0 80px;
+  flex: 0 0 auto;
 }
 
-.award-desc {
+/* Grid container that ensures the date column is a fixed track sized by its largest content
+   so all descriptions line up. We use max-content for the first column and allow the second
+   column to take remaining space. */
+.entries-list {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0 1rem; /* vertical gap controlled by .entry-item margin; horizontal gap between columns */
+}
+
+/* When using grid, ensure each entry-item spans the grid row with the two columns */
+.entries-list .entry-item {
+  display: contents; /* allow children (entry-date, entry-desc) to participate in the grid */
+}
+
+/* Ensure entry-date and entry-desc align to grid tracks when inside .entries-list */
+.entries-list .entry-date {
+  grid-column: 1 / 2;
+  padding-right: 0.5rem;
+  display: inline-block;
+  text-align: right;
+}
+
+.entries-list .entry-desc {
+  grid-column: 2 / 3;
+  padding-left: 0; /* no extra left padding; spacing comes from grid gap */
+}
+
+.entry-desc {
+  padding-left: 1rem;
   flex: 1;
 }
 
-.award-desc small {
+/* Primary role/degree emphasis */
+.primary-role {
+  font-weight: 700;
+  color: var(--text-color);
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.role-meta {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.4rem;
+}
+
+.summary {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.compact-list {
+  margin: 0.25rem 0 0.5rem 0;
+  padding-left: 1rem;
+  color: var(--text-secondary);
+}
+
+.compact-list li {
+  margin-bottom: 0.35rem;
+}
+
+.entry-desc small {
   font-size: 0.85rem;
   color: var(--text-secondary);
   margin-left: 0.5rem;
@@ -582,9 +639,24 @@ strong {
   }
 
   /* Disable right-moving hover animations on mobile */
-  .publication-item:hover, .award-item:hover, 
+  .publication-item:hover, .entry-item:hover, 
   .service-category:hover, .misc-item:hover, .news-list li:hover,
   nav a:hover, .social-links-header a:hover, .pub-links a:hover {
     transform: none !important;
+  }
+
+  /* On narrow viewports use a stacked layout where the year sits above the description */
+  .entries-list {
+    display: block;
+  }
+
+  .entries-list .entry-date {
+    text-align: left;
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+
+  .entries-list .entry-desc {
+    padding-left: 1rem; /* restore some indent for readability on mobile */
   }
 }
