@@ -40,7 +40,7 @@
       "venue": "Renewable and Sustainable Energy Reviews, Vol. 223",
       "year": 2025,
       "thumbnail": "images/thumbs/energy_optimization.png",
-      "selected": 0,
+      "selected": 1,
       "links": {"url": "https://doi.org/10.2514/6.2025-97819"}
     },
     {
@@ -50,7 +50,7 @@
       "venue": "2025 AIAA Region I Student Conference, Montreal, Canada",
       "year": 2025,
       "thumbnail": "images/thumbs/isoQ.png",
-      "selected": 0,
+      "selected": 1,
       "links": {"uri": "https://doi.org/10.2514/6.2025-97819"}
     }
   ]
