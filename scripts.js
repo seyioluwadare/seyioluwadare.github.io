@@ -167,7 +167,7 @@ function createPublicationElement(publication) {
   let authorsHTML = '';
   publication.authors.forEach((author, index) => {
     // Highlight your name when it appears in the author list
-    if (author.includes('Ahmad D. Suleiman')) {
+    if (author.includes('Seyi Oluwadare')) {
       authorsHTML += `<span class="highlight-name">${author}</span>`;
     } else {
       authorsHTML += author;
