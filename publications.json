@@ -24,8 +24,7 @@
     {
       "id": "3",
       "title": "Heat transfer performance analysis of steam boilers-fin and tube heat exchangers under varying geometric dimensions",
-      "authors": ["Samson Kolawole Fasogbon", "Ibrahim Ademola Fetuga", "Ayodele Temitope Oyeniran", "Mishael Alelume", "John Temitope Onafowokan", 
-        "Opeyemi Samuel Eso", "Tochukwu Anthony Ndokwu", "Samuel Olabode Afolabi", "Victor Blessed Bassey", "Seyi Oluwadare", "Olabode Thomas Olakoyejo"],
+      "authors": ["Samson Kolawole Fasogbon", "Ibrahim Ademola Fetuga", "Ayodele Temitope Oyeniran", "Mishael Alelume", "John Temitope Onafowokan", "Opeyemi Samuel Eso", "Tochukwu Anthony Ndokwu", "Samuel Olabode Afolabi", "Victor Blessed Bassey", "Seyi Oluwadare", "Olabode Thomas Olakoyejo"],
       "venue": "International Journal of Engineering Systems Modelling and Simulation",
       "year": 2025,
       "thumbnail": "images/thumbs/isoQ.png",
@@ -35,12 +34,11 @@
     {
       "id": "2",
       "title": "Optimization of energy grid efficiency with machine learning: A comprehensive review of challenges and opportunities",
-      "authors": ["Fasogbon Samson Kolawole", "Ibrahim Ademola Fetuga", "Ayodele Temitope Oyeniran", "Samuel Adavize Shaibu", 
-        "Samuel Afolabi", "Tochukwu Anthony Ndokwu", "Seyi Oluwadare", "John Temitope Onafowokan", "Opeyemi Samuel Eso", "Victor Blessed Bassey"],
+      "authors": ["Fasogbon Samson Kolawole", "Ibrahim Ademola Fetuga", "Ayodele Temitope Oyeniran", "Samuel Adavize Shaibu", "Samuel Afolabi", "Tochukwu Anthony Ndokwu", "Seyi Oluwadare", "John Temitope Onafowokan", "Opeyemi Samuel Eso", "Victor Blessed Bassey"],
       "venue": "Renewable and Sustainable Energy Reviews, Vol. 223",
       "year": 2025,
       "thumbnail": "images/thumbs/energy_optimization.png",
-      "selected": 1,
+      "selected": 0,
       "links": {"url": "https://doi.org/10.2514/6.2025-97819"}
     },
     {
@@ -50,7 +48,7 @@
       "venue": "2025 AIAA Region I Student Conference, Montreal, Canada",
       "year": 2025,
       "thumbnail": "images/thumbs/isoQ.png",
-      "selected": 1,
+      "selected": 0,
       "links": {"uri": "https://doi.org/10.2514/6.2025-97819"}
     }
   ]
