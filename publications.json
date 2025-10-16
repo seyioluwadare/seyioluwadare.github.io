@@ -1,53 +1,57 @@
 {
   "publications": [
     {
-      "title": "[Paper Title 1]",
-      "authors": [
-        "Author 1*",
-        "Author 2*",
-        "Author 3",
-        "Author 4",
-        "Author 5",
-        "Author 6",
-        "Author 7",
-        "Author 8",
-        "Author 9",
-        "Author 10",
-        "Author 11†",
-        "Author 12†"
-      ],
-      "venue": "Preprint (2025)",
-      "thumbnail": "images/thumbs/1.jpg",
+      "id": "5",
+      "title": "Computational Study of heat transfer and Entropy Generation in Novel M-Like Structure Microchannel Heat Sink using TiO2 Nanofluid",
+      "authors": ["Fetuga I.A", "Olakoyejo, O.T", "Oluwadare S.R", "Oluwatusin O", "Adelaja A.O"],
+      "venue": "Uniport Journal of Engineering and Scientific Research (UJESR)",
+      "year": 2022,
+      "thumbnail": "images/thumbs/novel_m_like.png",
       "selected": 1,
-      "award": "",
-      "links": {
-        "pdf": "#",
-        "code": "#",
-        "project": "#"
-      }
+      "links": {"pdf": "https://www.researchgate.net/publication/387937813_Computational_Study_of_heat_transfer_and_Entropy_Generation_in_Novel_M-Like_Structure_Microchannel_Heat_Sink_using_TiO2_Nanofluid"}
     },
     {
-      "title": "[Paper Title 2]",
-      "authors": [
-        "Author 1*",
-        "Author 2*",
-        "Author 3",
-        "Author 4",
-        "Author 5",
-        "Author 6",
-        "Author 7",
-        "Author 8",
-        "Author 9",
-        "Author 10",
-        "Author 11"
-      ],
-      "venue": "Preprint (2025)",
-      "thumbnail": "images/thumbs/2.jpg",
+      "id": "4",
+      "title": "Computational Heat Transfer Fluid Flow Analysis in a Diamond Hole Microchannel",
+      "authors": ["Olabode T. Olakoyejo", "Ibrahim A. Fetuga", "John T. Onafowokan", "Seyi R. Oluwadare", "Omotayo Oluwatusin",
+        "Olayinka O. Adewumi", "Adekunle O. Adelaja", "Opeyemi L. Fadipe"]
+      "venue": "FUOYE Journal of Engineering and Technology, Volume 8, Issue 1, March 2023",
+      "year": 2023,
+      "thumbnail": "images/thumbs/diamond_channel",
+      "selected": 1,
+      "links": {"pdf": "https://doi.org/10.46792/fuoyejet.v8i1.887"}
+    },
+    {
+      "id": "3",
+      "title": "Heat transfer performance analysis of steam boilers-fin and tube heat exchangers under varying geometric dimensions",
+      "authors": ["Samson Kolawole Fasogbon", "Ibrahim Ademola Fetuga", "Ayodele Temitope Oyeniran", "Mishael Alelume", "John Temitope Onafowokan", 
+        "Opeyemi Samuel Eso", "Tochukwu Anthony Ndokwu", "Samuel Olabode Afolabi", "Victor Blessed Bassey", "Seyi Rufus Oluwadare", "Olabode Thomas Olakoyejo"],
+      "venue": "International Journal of Engineering Systems Modelling and Simulation",
+      "year": 2025,
+      "thumbnail": "images/thumbs/scaffolding.png",
       "selected": 0,
-      "award": "",
-      "links": {
-        "pdf": "#"
-      }
+      "links": {"url": "https://doi.org/10.1504/IJESMS.2025.10073555"}
+    },
+    {
+      "id": "2",
+      "title": "Optimization of energy grid efficiency with machine learning: A comprehensive review of challenges and opportunities",
+      "authors": ["Fasogbon Samson Kolawole", "Ibrahim Ademola Fetuga", "Ayodele Temitope Oyeniran", "Samuel Adavize Shaibu", 
+        "Samuel Afolabi", "Tochukwu Anthony Ndokwu", "Seyi Rufus Oluwadare", "John Temitope Onafowokan", "Opeyemi Samuel Eso", "Victor Blessed Bassey"],
+      "venue": "Renewable and Sustainable Energy Reviews, Vol. 223",
+      "year": 2025,
+      "thumbnail": "images/thumbs/energy_optimization.png",
+      "selected": 0,
+      "links": {"url": "https://doi.org/10.2514/6.2025-97819"}
+    },
+    {
+      "id": "1",
+      "title": "Flow-Driven Rotor Simulations of Seyi-Chunlei Ducted Turbine",
+      "authors": ["Seyi Oluwadare", "Chunlei Liang"],
+      "venue": "2025 AIAA Region I Student Conference, Montreal, Canada",
+      "year": 2025,
+      "thumbnail": "images/thumbs/isoQ.png",
+      "selected": 0,
+      "links": {"uri": "https://doi.org/10.2514/6.2025-97819"}
     }
   ]
 }
