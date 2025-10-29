@@ -27,7 +27,7 @@
       "venue": "International Journal of Engineering Systems Modelling and Simulation",
       "year": 2025,
       "thumbnail": "images/thumbs/steamHX.png",
-      "selected": 0,
+      "selected": 1,
       "links": {"url": "https://doi.org/10.1504/IJESMS.2025.10073555"}
     },
     {
@@ -47,7 +47,7 @@
       "venue": "Uniport Journal of Engineering and Scientific Research (UJESR)",
       "year": 2022,
       "thumbnail": "images/thumbs/novel_m_like.png",
-      "selected": 1,
+      "selected": 0,
       "links": {"pdf": "https://www.researchgate.net/publication/387937813_Computational_Study_of_heat_transfer_and_Entropy_Generation_in_Novel_M-Like_Structure_Microchannel_Heat_Sink_using_TiO2_Nanofluid"}
     }
   ]
