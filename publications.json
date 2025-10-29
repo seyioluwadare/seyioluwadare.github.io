@@ -48,7 +48,7 @@
       "year": 2025,
       "thumbnail": "images/thumbs/isoQ.png",
       "selected": 0,
-      "links": {"uri": "https://doi.org/10.2514/6.2025-97819"}
+      "links": {"url": "https://doi.org/10.2514/6.2025-97819"}
     }
   ]
 }
